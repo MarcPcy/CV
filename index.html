@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/Img/Pink Typography Initial MP Logo3.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>CV numérique Marc PETCHY</title>
+</head>
+
+<body>
+    <!--Accueil avec bouton pour accès au site-->
+    <div id="accueil">
+        <div class="avatar">
+            <img src="assets/Img/IMG_489F11E7638A-1.jpeg" alt="Mon avatar">
+        </div>
+        <div class="message">
+            <p>Bonjour, je m'appelle Marc et je suis développeur Web!</p>
+            <button id="btnAccueil">Mon site</button>
+        </div>
+    </div>
+
+    <!--Début du site-->
+    <div id="site" style="display: none;">
+        <!--Partie haute gauche avec logo et Nom-->
+        <div id="main">
+            <nav id="nav">
+                <a href="#main"><img id="img" src="assets/Img/Pink Typography Initial MP Logo4.png" alt="Mon logo"></a>
+                <h1 id="name"> Marc PETCHY</h1>
+
+                <!--Navbar-->
+                <ul>
+                    <li><a href="#main">Accueil</a></li>
+                    <li><a href="#me">À propos</a></li>
+                    <li><a href="#competence">Compétences</a></li>
+                    <li><a href="#formations">Formations</a></li>
+                    <li><a href="#reseaux">Réseaux</a></li>
+                    <li><a href="assets/pdf/Black And Green Simple Modern Resume.pdf" target="_blank">Mon CV</a></li>
+                </ul>
+                <div id="icons"></div>
+            </nav>
+        </div>
+
+        <!--Titre-->
+        <header>
+            <h1 class="mainTitle">Développeur Web</h1>
+        </header>
+
+        <!--Section à propos-->
+        <section id="me">
+            <div class="about">
+                <h2>À propos</h2>
+                <p>
+                    Après 14 ans de bons et loyaux services dans le fret aérien, j'ai décidé de me lancer en tant
+                    que développeur Web et Web mobile. En effet, suite à un bilan de compétences, je me suis replongé
+                    dans
+                    mes
+                    souvenirs d'enfance et je me suis souvenu que mes premières envies professionnelles étaient tournées
+                    vers
+                    l'informatique. Après quelques recherches et enquêtes métier, celui de développeur semblait réunir
+                    tout ce
+                    qu'il me fallait pour m'épanouir professionnellement. Formation commencée, cela c'est confirmé!
+                </p>
+                <img id="picture" src="assets/Img/IMG_489F11E7638A-1.jpeg" alt="Mon avatar">
+                <h2 id="mobile">À propos</h2>
+            </div>
+        </section>
+
+        <!--Section compétence avec logo-->
+        <section id="competence">
+
+            <h3>Compétences </h3>
+            <div class="grid-container" id="titre">
+
+                <div class="element" data-aos="fade-right">
+                    <figure><img class="image" src="assets/Img/HTML5_Badge.svg.png" alt="Logo HTML">
+                        <figcaption>HTML 5</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-down">
+                    <figure><img class="image" src="assets/Img/CSS3_logo.svg.png" alt="Logo CSS">
+                        <figcaption>CSS 3</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-left">
+                    <figure><img class="image" src="assets/Img/Unofficial_JavaScript_logo_2.svg.png"
+                            alt="Logo Javascript">
+                        <figcaption>Javascript</figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="element" data-aos="fade-right">
+                    <figure><img class="image" src="assets/Img/php-svgrepo-com.svg" alt="Logo PHP">
+                        <figcaption>PHP</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="zoom-in">
+                    <figure><img class="image" src="assets/Img/vs-code-svgrepo-com.svg" alt="Logo VS code">
+                        <figcaption>VS CODE</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-left">
+                    <figure><img class="image" src="assets/Img/wordpress-139-svgrepo-com (1).svg" alt="Logo Wordpress">
+                        <figcaption>Wordpress</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-right">
+                    <figure><img class="image" src="assets/Img/MySQL.svg" alt="Logo MySQL">
+                        <figcaption>MySQL</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="zoom-in">
+                    <figure><img class="image" src="assets/Img/320px-Figma-logo.svg.png" alt="Logo Figma" id="figma">
+                        <figcaption>Figma</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-left">
+                    <figure><img class="image" src="assets/Img/trello-svgrepo-com.svg" alt="Logo Trello">
+                        <figcaption>Trello</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-right">
+                    <figure><img class="image" src="assets/Img/Bootstrap_logo.svg.png" alt="Logo Bootstrap">
+                        <figcaption>Bootstrap</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-up">
+                    <figure><img class="image" src="assets/Img/github-142-svgrepo-com (1).svg" alt="Logo GitHub">
+                        <figcaption>GitHub</figcaption>
+                    </figure>
+                </div>
+
+                <div class="element" data-aos="fade-left">
+                    <figure><img class="image" src="assets/Img/JMerise.svg" alt="Logo JMerise">
+                        <figcaption>JMerise</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Section formation-->
+        <section id="formations">
+            <h3>Formations</h3>
+            <div class="formation">
+                <div>
+                    <img src="assets/Img/Unknown.png" alt="Image La Manu" width="400px" height="200px">
+                    <figcaption>Développeur Web et Web mobile</figcaption>
+                </div>
+                <div>
+                    <img src="assets/Img/téléchargement.png" alt="Image Orientea" width="400px" height="200px">
+                    <figcaption>Bilan de compétences</figcaption>
+                </div>
+                <div>
+                    <img src="assets/Img/images.jpeg" alt="Image Transport international" width="400px" height="200px">
+                    <figcaption>Adjoint déclarant en douane</figcaption>
+                </div>
+            </div>
+        </section>
+
+        <!--Section réseaux-->
+        <section id="reseaux">
+            <h3>Réseaux</h3>
+            <div class="social">
+                <a href="https://fr.linkedin.com/in/marc-petchy-b94b53185" target="_blank"><img
+                        src="assets/Img/linkedin-svgrepo-com.svg" alt="Logo Linkedin"></a>
+                <img src="assets/Img/instagram-svgrepo-com (1).svg" alt="Logo instagram">
+                <a href="mailto:marc.petchy@gmail.com"><img src="assets/Img/gmail-svgrepo-com.svg" alt="Icon mail"></a>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyrights © 2023. Marc PETCHY</p>
+        </footer>
+
+    </div>
+
+    <!--Script pour l'animation des logos compétences-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="assets/JS/script.js"></script>
+
+</body>
+
+</html>
