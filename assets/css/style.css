@@ -213,6 +213,10 @@ footer p {
         height: 240px;
     }
 
+    .about a {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width : 768px) {
@@ -220,7 +224,6 @@ footer p {
     .img {
         width: 100%;
     }
-
 
     h1 {
         font-size: 40px;
@@ -237,6 +240,7 @@ footer p {
     .about h2 {
         display: none;
     }
+
 
     #mobile {
         display: block;
