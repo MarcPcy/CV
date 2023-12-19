@@ -206,7 +206,24 @@ footer p {
     width: 100%;
 }
 
+@media screen and (min-width: 769px) {
+
+    .img {
+        width: 400px;
+        height: 240px;
+    }
+    
+}
+
 @media screen and (max-width : 768px) {
+
+    .img {
+        width: 100%;
+    }
+
+    #mobile {
+        text-align: center;
+    }
 
     h1 {
         font-size: 40px;
