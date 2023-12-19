@@ -257,7 +257,7 @@ footer p {
     
     nav ul {
         position: fixed;
-        left: -110%;
+        
         top: 5%;
         flex-direction: column;
         background: radial-gradient(circle, rgba(166, 124, 28, 1) 0%, rgba(4, 4, 29, 1) 100%);
